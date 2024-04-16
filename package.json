@@ -1,0 +1,26 @@
+{
+  "name": "nodes-app2",
+  "version": "1.0.0",
+  "description": "Ein kleines Beispielprojekt für Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyna05/nodes-app2.git"
+  },
+  "author": "Lyne Tayoumo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyna05/nodes-app2/issues"
+  },
+  "homepage": "https://github.com/Lyna05/nodes-app2#readme",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "express": "^4.19.2"
+  }
+}
